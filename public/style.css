@@ -1,4 +1,7 @@
-
+body{ 
+    overflow-x: hidden; 
+    animation: fadeInAnimation ease 3s
+}
 
 .home {
     background-color: #fbf8cc;
@@ -78,18 +81,23 @@
     width: 681px;
 }
 
+.home .group-1 {
+    position: absolute;
+    left: 850px;
+}
+
 .home .group-2 {
     height: 29px;
-    left: 663px;
+    left: 1300px;
     position: absolute;
-    top: 429px;
+    top: 400px;
     width: 104px;
 }
 
 .home .rectangle-2 {
     background-color: var(--dark-brown);
     height: 30px;
-    left: 6px;
+    left: 7px;
     position: absolute;
     top: 0;
     transform: rotate(24deg);
@@ -224,7 +232,7 @@
     color: var(--dark-blue);
     font-family: "Poppins-Regular", Helvetica;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     left: 200px;
     letter-spacing: 0;
     line-height: normal;
@@ -232,20 +240,32 @@
     top: 0;
     outline: none;
     background-color: transparent;
+    border: none;
 }
+
+.home .text-wrapper-4:hover {
+    color: var(--dark-brown);
+    font-weight: 800;
+}  
 
 .home .text-wrapper-5 {
     color: var(--dark-blue);
     font-family: "Poppins-Regular", Helvetica;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     left: 102px;
     background-color: transparent;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     top: 0;
+    border: none;
 }
+
+.home .text-wrapper-5:hover {
+    color: var(--dark-brown);
+    font-weight: 800;
+}  
 
 .home .twitter {
     height: 18px !important;
@@ -253,7 +273,8 @@
     position: absolute !important;
     top: 41px !important;
     width: 26px !important;
-    background-color: transparent
+    background-color: transparent;
+    border: none;
 }
 
 .home .overlap-3 {
@@ -321,6 +342,18 @@
     top: 450px;
 }
 
+.home .transparent_button {
+    background-color: transparent;
+    outline-color: transparent;
+    border: none;
+    position: relative;
+}
+
+.home .transparent_button:hover {
+    left: 5px;
+    top: 5px;
+}  
+
 .home .contact_photo {
     height: 200px;
     left: 450px;
@@ -350,4 +383,22 @@
     justify-content: center;
     width: 100%;
     overflow-x: hidden;
+}
+
+.home .element-little-slide:hover {animation: shaking 0.4s infinite;}
+@keyframes shaking {
+   0% {transform: translateX(0) rotate(0deg);}
+   25% {transform: translateX(15px) rotate(5deg);}
+   50% {transform: translateX(0px) rotate(0deg);}
+   75% {transform: translateX(-15px) rotate(-5deg);}
+   100% {transform: translateX(0px) rotate(0deg);}
+}
+
+.home .DSC:hover {animation: shaking 0.4s infinite;}
+@keyframes shaking {
+   0% {transform: translateX(0) rotate(0deg);}
+   25% {transform: translateX(15px) rotate(5deg);}
+   50% {transform: translateX(0px) rotate(0deg);}
+   75% {transform: translateX(-15px) rotate(-5deg);}
+   100% {transform: translateX(0px) rotate(0deg);}
 }
