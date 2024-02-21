@@ -1,0 +1,353 @@
+body{ overflow-x: hidden; }
+
+.home {
+    background-color: #fbf8cc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 2000px;
+    overflow-x: hidden;
+}
+
+.home .div-2 {
+    background-color: rgba(251, 248, 204, 1);
+    position: relative;
+}
+
+.home .text-wrapper {
+    color: var(--dark-blue);
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 350px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 33px;
+}
+
+.home .overlap {
+    height: 497px;
+    left: 97px;
+    position: absolute;
+    top: 221px;
+    width: 1231px;
+}
+
+.home .overlap-2 {
+    height: 458px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1231px;
+}
+
+.home .text-wrapper-2 {
+    color: var(--dark-blue);
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 28px;
+    font-weight: 500;
+    left: 300px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 66px;
+}
+
+.home .text-wrapper-3 {
+    color: var(--dark-blue);
+    font-family: "Poppins-ExtraBold", Helvetica;
+    font-size: 100px;
+    font-weight: 800;
+    height: 232px;
+    left: 290px;
+    letter-spacing: 0;
+    line-height: 116px;
+    position: absolute;
+    top: 107px;
+    width: 616px;
+}
+
+.home .DSC {
+    height: 457px;
+    left: 800px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 681px;
+}
+
+.home .group-2 {
+    height: 29px;
+    left: 663px;
+    position: absolute;
+    top: 429px;
+    width: 104px;
+}
+
+.home .rectangle-2 {
+    background-color: var(--dark-brown);
+    height: 30px;
+    left: 6px;
+    position: absolute;
+    top: 0;
+    transform: rotate(24deg);
+    width: 5px;
+}
+
+.home .rectangle-3 {
+    background-color: var(--dark-brown);
+    height: 30px;
+    left: 28px;
+    position: absolute;
+    top: 0;
+    transform: rotate(24deg);
+    width: 5px;
+}
+
+.home .rectangle-4 {
+    background-color: var(--dark-brown);
+    height: 30px;
+    left: 49px;
+    position: absolute;
+    top: 0;
+    transform: rotate(24deg);
+    width: 5px;
+}
+
+.home .rectangle-5 {
+    background-color: var(--dark-brown);
+    height: 30px;
+    left: 71px;
+    position: absolute;
+    top: 0;
+    transform: rotate(24deg);
+    width: 5px;
+}
+
+.home .rectangle-6 {
+    background-color: var(--dark-brown);
+    height: 30px;
+    left: 93px;
+    position: absolute;
+    top: 0;
+    transform: rotate(24deg);
+    width: 5px;
+}
+
+.home .group-3 {
+    height: 56px;
+    left: 1137px;
+    position: absolute;
+    top: 11px;
+    width: 50px;
+}
+
+.home .overlap-group-wrapper {
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 16px;
+    width: 24px;
+}
+
+.home .overlap-group-2 {
+    height: 24px;
+    position: relative;
+}
+
+.home .rectangle-7 {
+    background-color: var(--dark-brown);
+    border-radius: 6px;
+    height: 24px;
+    left: 9px;
+    position: absolute;
+    top: 0;
+    width: 6px;
+}
+
+.home .rectangle-8 {
+    background-color: var(--dark-brown);
+    border-radius: 6px;
+    height: 24px;
+    left: 9px;
+    position: absolute;
+    top: 0;
+    transform: rotate(-90deg);
+    width: 6px;
+}
+
+.home .overlap-wrapper {
+    height: 24px;
+    left: 26px;
+    position: absolute;
+    top: 32px;
+    width: 24px;
+}
+
+.home .div-wrapper {
+    height: 24px;
+    left: 26px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.home .p {
+    color: var(--dark-blue);
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 28px;
+    font-weight: 500;
+    left: 295px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 330px;
+}
+
+.home .group-5 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 429px !important;
+}
+
+.home .group-4 {
+    height: 27px;
+    left: 820px;
+    position: absolute;
+    top: 37px;
+    width: 180px;
+}
+
+.home .text-wrapper-4 {
+    color: var(--dark-blue);
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 200px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    outline: none;
+    background-color: transparent;
+}
+
+.home .text-wrapper-5 {
+    color: var(--dark-blue);
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 102px;
+    background-color: transparent;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+}
+
+.home .twitter {
+    height: 18px !important;
+    left: 1611px !important;
+    position: absolute !important;
+    top: 41px !important;
+    width: 26px !important;
+    background-color: transparent
+}
+
+.home .overlap-3 {
+    height: 819px;
+    left: 97px;
+    position: absolute;
+    top: 988px;
+    width: 1343px;
+}
+
+.home .element-little-slide {
+    background-size: 100% 100%;
+    height: 752px;
+    left: 250px;
+    position: absolute;
+    top: 67px;
+    width: 1337px;
+}
+
+.home .i-m-anisha-a {
+    color: var(--dark-blue);
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 250px;
+    letter-spacing: 0;
+    line-height: 44px;
+    position: absolute;
+    top: 148px;
+    width: 675px;
+}
+
+.home .text-wrapper-6 {
+    color: var(--dark-blue);
+    font-family: "Poppins-ExtraBold", Helvetica;
+    font-size: 100px;
+    font-weight: 800;
+    height: 116px;
+    left: 250px;
+    letter-spacing: 0;
+    line-height: 116px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.contact .text-wrapper-7 {
+    color: var(--dark-blue);
+    font-family: "Poppins-ExtraBold", Helvetica;
+    font-size: 100px;
+    font-weight: 800;
+    height: 116px;
+    left: 450px;
+    letter-spacing: 0;
+    line-height: 116px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    padding-top: 175px;
+}
+
+.home .contact_button {
+    left: 295px;
+    position: absolute;
+    top: 450px;
+}
+
+.home .contact_photo {
+    height: 200px;
+    left: 450px;
+    object-fit: cover;
+    position: absolute;
+    padding-top: 300px;
+    width: 400px;
+}
+
+.contact .contact_info {
+    color: var(--dark-blue);
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 950px;
+    letter-spacing: 0;
+    line-height: 44px;
+    position: absolute;
+    top: 248px;
+    width: 675px;
+}
+
+.contact {
+    background-color: #fbf8cc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    overflow-x: hidden;
+}
